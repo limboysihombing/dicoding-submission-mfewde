@@ -1,0 +1,69 @@
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+  
+    .navbar > .container > #hamburgerButton {
+        display: none;
+    }
+    .navbar > .container > .nav-list {
+        position: initial;
+        border: 0;
+        width: fit-content;
+        left: none;
+        height: fit-content;
+        background: transparent;
+        transform: translate(0, 0);
+        list-style-type: none;
+        display: flex;
+    }
+    .navbar > .container > .nav-list > .nav-item {
+        margin-left: 16px;
+    }
+  
+    
+  }
+  
+  @media (min-width: 768px) {
+    .hero {
+        background-image: url('/images/hero-large.jpg');
+    }
+    #restaurant_detail > .container-fluid {
+        background-image: url('/images/hero-large.jpg');
+    }
+    .container {
+        max-width: 720px;
+    }
+    .row {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-list-menus {
+        grid-template-columns: 1fr 1fr;
+    }
+    #restaurant_detail > .container-fluid > .container .row-2 {
+      flex-direction: row !important;
+    }
+    #restaurant_detail > .container-fluid > .container .row-2 .restaurant-profile{
+        margin-left: 20px;
+    } 
+    
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+  }
+  @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+  }
